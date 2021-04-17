@@ -1,0 +1,102 @@
+.main_div{
+  width:100%;
+  height: 100vh;
+  background: fixed;
+  background-color: aqua;
+  display: flex;
+  border-radius: 30px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.center_div{
+  width: 25%;
+  height: 80vh;
+  background-color: white;
+  box-shadow: 5px 5px 25px -5px rgb(169, 125, 209);
+  border-radius: 15px;
+  
+}
+h1{
+  color: white;
+  background: transparent;
+  background-color: pink;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px -5px rgb(94, 194, 172);
+}
+
+input{
+  text-align:center ;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid pink;
+  outline: none;
+}
+::placeholder{
+  color: pink;
+}
+#b1{
+  min-height: 40px;
+  width:40px;
+  border-radius: 30%;
+  margin-left: 10px;
+  border-color: transparent;
+  background-color: pink;
+  color: rgb(219, 178, 117);
+  font-size: 30px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgb(94, 194, 172); 
+}
+button:hover{
+  background-color: white;
+}
+ol{
+  margin-top: 30px;
+}
+ol li{
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: rgb(185, 67, 87);
+  text-transform: capitalize;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.list_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-bottom: 2px;
+  
+}
+#b2{
+  min-height: 30px;
+  width:40px;
+  font-size: 30px;
+  border-radius: 30%;
+  text-align: center;
+  font-weight: 100;
+  margin-left: 0px;
+  margin-right: 15px;
+  border-color: transparent;
+  background-color: rgb(243, 135, 189);
+  color: rgb(226, 222, 217);
+  border: none;
+  outline: none;
+  box-shadow: 5px 5px 15px -5px rgb(94, 194, 172); 
+}
